@@ -1,0 +1,38 @@
+body {
+	background-color: #aaa;
+	font-family: sans-serif;
+}
+
+#legend {
+	float: right;
+}
+
+fieldset {
+	border-radius: 3px;
+	border: 1px solid #000;
+}
+
+.settings {
+	background-color: #aaa;
+	position: absolute;
+	right:0;
+	top:0;
+	z-index: 10;
+	display: none;
+	max-height: 100vh;
+	overflow-y: auto;
+}
+
+#settingsButton {
+	position: absolute;
+	right:0;
+	top:0;
+	z-index: 11;	
+	background-color: #aaa;
+	color: #666;
+}
+
+/* basic styles */
+.base { fill: #666; }
+.hilight { fill: #fff; fill-opacity: 0; }
+.outline { fill: none; stroke-width: 1px; stroke: #000; }

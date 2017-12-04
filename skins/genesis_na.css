@@ -1,0 +1,4 @@
+body { background-color: #262626; }
+#dpad .base { fill: #3a3939; }
+#start .base { fill: #737272; }
+#b0 .base, #b1 .base, #b2 .base { fill: #3a3939; }

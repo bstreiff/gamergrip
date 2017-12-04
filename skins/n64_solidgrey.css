@@ -1,0 +1,12 @@
+body { background-color: #b2b4b2; }
+
+#dpad .base, #l1 .base, #r1 .base, #r2 .base { fill: #595758; }
+
+#start .base { fill: #e15d5d; }
+#b0 .base { fill: #49b6a3; }
+#b1 .base { fill: #4682b4; }
+
+#ls-socket .base { fill: #595758; }
+#ls .base { fill: #b2b4b2; }
+
+#rsu .base, #rsd .base, #rsl .base, #rsr .base { fill: #dbc851; }
