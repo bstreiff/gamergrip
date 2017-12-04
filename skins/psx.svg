@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+<g id="dr">
+	<path class="base" id="dr-base" d="m109 170-19.1 20 19.1 20h30.1c3.22 0 5.81-2.71 5.81-6.09v-27.8c0-3.37-2.59-6.09-5.81-6.09z"/>
+	<path class="hilight" id="dr-hilight" d="m109 170-19.1 20 19.1 20h30.1c3.22 0 5.81-2.71 5.81-6.09v-27.8c0-3.37-2.59-6.09-5.81-6.09z"/>
+	<path class="outline" id="dr-outline" d="m109 170-19.1 20 19.1 20h30.1c3.22 0 5.81-2.71 5.81-6.09v-27.8c0-3.37-2.59-6.09-5.81-6.09z"/>
+</g>
+
+<g id="dl">
+	<path class="base" id="dl-base" d="m30.8 170c-3.22 0-5.81 2.71-5.81 6.09v27.8c0 3.37 2.59 6.09 5.81 6.09h30.1l19.1-20-19.1-20z"/>
+	<path class="hilight" id="dl-hilight" d="m30.8 170c-3.22 0-5.81 2.71-5.81 6.09v27.8c0 3.37 2.59 6.09 5.81 6.09h30.1l19.1-20-19.1-20z"/>
+	<path class="outline" id="dl-outline" d="m30.8 170c-3.22 0-5.81 2.71-5.81 6.09v27.8c0 3.37 2.59 6.09 5.81 6.09h30.1l19.1-20-19.1-20z"/>
+</g>
+
+<g id="du">
+	<path class="base" id="du-base" d="m71.1 130c-3.37 0-6.09 2.59-6.09 5.81v30.1l20 19.1 20-19.1v-30.1c0-3.22-2.71-5.81-6.09-5.81z"/>
+	<path class="hilight" id="du-hilight" d="m71.1 130c-3.37 0-6.09 2.59-6.09 5.81v30.1l20 19.1 20-19.1v-30.1c0-3.22-2.71-5.81-6.09-5.81z"/>
+	<path class="outline" id="du-outline" d="m71.1 130c-3.37 0-6.09 2.59-6.09 5.81v30.1l20 19.1 20-19.1v-30.1c0-3.22-2.71-5.81-6.09-5.81z"/>
+</g>
+
+<g id="dd">
+	<path class="base" id="dd-base" d="m65 214v30.1c0 3.22 2.71 5.81 6.09 5.81h27.8c3.37 0 6.09-2.59 6.09-5.81v-30.1l-20-19.1z"/>
+	<path class="hilight" id="dd-hilight" d="m65 214v30.1c0 3.22 2.71 5.81 6.09 5.81h27.8c3.37 0 6.09-2.59 6.09-5.81v-30.1l-20-19.1z"/>
+	<path class="outline" id="dd-outline" d="m65 214v30.1c0 3.22 2.71 5.81 6.09 5.81h27.8c3.37 0 6.09-2.59 6.09-5.81v-30.1l-20-19.1z"/>
+</g>
+
+<g id="b0">
+	<circle class="base" id="b0-base" cx="500" cy="240" r="25"/>
+	<circle class="hilight" id="b0-hilight" cx="500" cy="240" r="25"/>
+	<circle class="outline" id="b0-outline" cx="500" cy="240" r="25"/>
+</g>
+
+<g id="b1">
+	<circle class="base" id="b1-base" cx="550" cy="190" r="25"/>
+	<circle class="hilight" id="b1-hilight" cx="550" cy="190" r="25"/>
+	<circle class="outline" id="b1-outline" cx="550" cy="190" r="25"/>
+</g>
+
+<g id="b2">
+	<circle class="base" id="b2-base" cx="450" cy="190" r="25"/>
+	<circle class="hilight" id="b2-hilight" cx="450" cy="190" r="25"/>
+	<circle class="outline" id="b2-outline" cx="450" cy="190" r="25"/>
+</g>
+
+<g id="b3">
+	<circle class="base" id="b3-base" cx="500" cy="140" r="25"/>
+	<circle class="hilight" id="b3-hilight" cx="500" cy="140" r="25"/>
+	<circle class="outline" id="b3-outline" cx="500" cy="140" r="25"/>
+</g>
+
+<g id="l3">
+	<circle class="base" id="l3-base" cx="200" cy="295" r="55"/>
+	<circle class="hilight" id="l3-hilight" cx="200" cy="295" r="55"/>
+	<circle class="outline" id="l3-outline" cx="200" cy="295" r="55"/>
+</g>
+
+<g id="ls">
+	<circle class="base" id="ls-base" cx="200" cy="295" r="40"/>
+	<circle class="hilight" id="ls-hilight" cx="200" cy="295" r="40"/>
+	<circle class="outline" id="ls-outline" cx="200" cy="295" r="40"/>
+</g>
+
+<g id="r3">
+	<circle class="base" id="r3-base" cx="400" cy="295" r="55"/>
+	<circle class="hilight" id="r3-hilight" cx="400" cy="295" r="55"/>
+	<circle class="outline" id="r3-outline" cx="400" cy="295" r="55"/>
+</g>
+
+<g id="rs">
+	<circle class="base" id="rs-base" cx="400" cy="295" r="40"/>
+	<circle class="hilight" id="rs-hilight" cx="400" cy="295" r="40"/>
+	<circle class="outline" id="rs-outline" cx="400" cy="295" r="40"/>
+</g>
+
+<g id="select">
+	<rect class="base" id="select-base" x="215" y="180" width="45" height="25" rx="5" ry="5"/>
+	<rect class="hilight" id="select-hilight" x="215" y="180" width="45" height="25" rx="5" ry="5"/>
+	<rect class="outline" id="select-outline" x="215" y="180" width="45" height="25" rx="5" ry="5"/>
+</g>
+
+<g id="start">
+	<rect class="base" id="start-base" x="340" y="180" width="45" height="25" rx="5" ry="5"/>
+	<rect class="hilight" id="start-hilight" x="340" y="180" width="45" height="25" rx="5" ry="5"/>
+	<rect class="outline" id="start-outline" x="340" y="180" width="45" height="25" rx="5" ry="5"/>
+</g>
+
+<g id="l1">
+	<rect class="base" id="l1-base" x="60" y="60" width="95" height="30" rx="5" ry="5"/>
+	<rect class="hilight" id="l1-hilight" x="60" y="60" width="95" height="30" rx="5" ry="5"/>
+	<rect class="outline" id="l1-outline" x="60" y="60" width="95" height="30" rx="5" ry="5"/>
+</g>
+
+<g id="l2">
+	<rect class="base" id="l2-base" x="60" y="20" width="95" height="30" rx="5" ry="5"/>
+	<rect class="hilight" id="l2-hilight" x="60" y="20" width="95" height="30" rx="5" ry="5"/>
+	<rect class="outline" id="l2-outline" x="60" y="20" width="95" height="30" rx="5" ry="5"/>
+</g>
+
+<g id="r1">
+	<rect class="base" id="r1-base" x="445" y="60" width="95" height="30" rx="5" ry="5"/>
+	<rect class="hilight" id="r1-hilight" x="445" y="60" width="95" height="30" rx="5" ry="5"/>
+	<rect class="outline" id="r1-outline" x="445" y="60" width="95" height="30" rx="5" ry="5"/>
+</g>
+
+<g id="r2">
+	<rect class="base" id="r2-base" x="445" y="20" width="95" height="30" rx="5" ry="5"/>
+	<rect class="hilight" id="r2-hilight" x="445" y="20" width="95" height="30" rx="5" ry="5"/>
+	<rect class="outline" id="r2-outline" x="445" y="20" width="95" height="30" rx="5" ry="5"/>
+</g>
+
+</svg>

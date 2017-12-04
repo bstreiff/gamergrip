@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 600 400" xmlns="http://www.w3.org/2000/svg">
+
+<!-- D-Pad -->
+<g id="dpad">
+	<path class="base" id="dpad-base" d="m200 270c-2.53 0-4.56 2.08-4.56 4.67v25.3h-25.3c-2.59 0-4.67 2.04-4.67 4.56v20.9c0 2.53 2.08 4.56 4.67 4.56h25.3v25.3c0 2.59 2.04 4.67 4.56 4.67h20.9c2.53 0 4.56-2.08 4.56-4.67v-25.3h25.3c2.59 0 4.67-2.04 4.67-4.56v-20.9c0-2.53-2.08-4.56-4.67-4.56h-25.3v-25.3c0-2.59-2.04-4.67-4.56-4.67z"/>
+	<path class="hilight" id="dr-hilight" d="m225 300-15 15 15 15h25.3c2.59 0 4.67-2.04 4.67-4.57v-20.9c0-2.53-2.08-4.57-4.67-4.57z"/>
+	<path class="hilight" id="dl-hilight" d="m170 300c-2.59 0-4.67 2.04-4.67 4.57v20.9c0 2.53 2.08 4.57 4.67 4.57h25.3l15-15-15-15z"/>
+	<path class="hilight" id="du-hilight" d="m200 270c-2.53 0-4.57 2.08-4.57 4.67l-1e-5 25.3 15 15 15-15v-25.3c0-2.59-2.04-4.67-4.57-4.67z"/>
+	<path class="hilight" id="dd-hilight" d="m195 330 1e-5 25.3c0 2.59 2.04 4.67 4.57 4.67h20.9c2.53 0 4.57-2.08 4.57-4.67v-25.3l-15-15z"/>
+	<path class="outline" id="dpad-outline" d="m200 270c-2.53 0-4.56 2.08-4.56 4.67v25.3h-25.3c-2.59 0-4.67 2.04-4.67 4.56v20.9c0 2.53 2.08 4.56 4.67 4.56h25.3v25.3c0 2.59 2.04 4.67 4.56 4.67h20.9c2.53 0 4.56-2.08 4.56-4.67v-25.3h25.3c2.59 0 4.67-2.04 4.67-4.56v-20.9c0-2.53-2.08-4.56-4.67-4.56h-25.3v-25.3c0-2.59-2.04-4.67-4.56-4.67z"/>
+</g>
+
+<!-- Socket for left analog stick -->
+<g id="ls-socket">
+	<path class="base" id="ls-socket" d="m150 190-13.2 31.8-31.8 13.2-31.8-13.2-13.2-31.8 13.2-31.8 31.8-13.2 31.8 13.2z"/>
+	<path class="outline" id="ls-socket-outline" d="m150 190-13.2 31.8-31.8 13.2-31.8-13.2-13.2-31.8 13.2-31.8 31.8-13.2 31.8 13.2z"/>
+</g>
+
+<!-- Analog stick -->
+<g id="ls">
+	<circle class="base" id="ls-base" cx="105" cy="190" r="30"/>
+	<circle class="hilight" id="ls-hilight" cx="105" cy="190" r="30"/>
+	<circle class="outline" id="ls-outline" cx="105" cy="190" r="30"/>
+</g>
+
+<!-- Left Trigger -->
+<g id="l2">
+	<rect class="base" id="l2-base" x="70" y="25" width="95" height="45" rx="5" ry="5"/>
+	<rect class="hilight" id="l2-hilight" x="70" y="25" width="95" height="45" rx="5" ry="5"/>
+	<rect class="outline" id="l2-outline" x="70" y="25" width="95" height="45" rx="5" ry="5"/>
+</g>
+
+<!-- Right Trigger -->
+<g id="r2">
+	<rect class="base" id="r2-base" x="435" y="25" width="95" height="45" rx="5" ry="5"/>
+	<rect class="hilight" id="r2-hilight" x="435" y="25" width="95" height="45" rx="5" ry="5"/>
+	<rect class="outline" id="r2-outline" x="435" y="25" width="95" height="45" rx="5" ry="5"/>
+</g>
+
+<!-- Z Button -->
+<g id="r1">
+	<rect class="base" id="r1-base" x="435" y="85" width="95" height="25" rx="5" ry="5"/>
+	<rect class="hilight" id="r1-hilight" x="435" y="85" width="95" height="25" rx="5" ry="5"/>
+	<rect class="outline" id="r1-outline" x="435" y="85" width="95" height="25" rx="5" ry="5"/>
+</g>
+
+<!-- Start Button -->
+<g id="start">
+	<circle class="base" id="start-base" cx="300" cy="200" r="15"/>
+	<circle class="hilight" id="start-hilight" cx="300" cy="200" r="15"/>
+	<circle class="outline" id="start-outline" cx="300" cy="200" r="15"/>
+</g>
+
+<!-- Socket for C Stick -->
+<g id="rs-socket">
+	<path class="base" id="rs-socket" d="m436 315-13.2 31.8-31.8 13.2-31.8-13.2-13.2-31.8 13.2-31.8 31.8-13.2 31.8 13.2z"/>
+	<path class="outline" id="rs-socket-outline" d="m436 315-13.2 31.8-31.8 13.2-31.8-13.2-13.2-31.8 13.2-31.8 31.8-13.2 31.8 13.2z"/>
+</g>
+
+<!-- C Stick -->
+<g id="rs">
+	<circle class="base" id="rs-base" cx="391" cy="315" r="25"/>
+	<circle class="hilight" id="rs-hilight" cx="391" cy="315" r="25"/>
+	<circle class="outline" id="rs-outline" cx="391" cy="315" r="25"/>
+</g>
+
+<!-- A Button -->
+<g id="b1">
+	<circle class="base" id="b1-base" cx="468" cy="198" r="32.5"/>
+	<circle class="hilight" id="b1-hilight" cx="468" cy="198" r="32.5"/>
+	<circle class="outline" id="b1-outline" cx="468" cy="198" r="32.5"/>
+</g>
+
+<!-- B Button -->
+<g id="b2">
+	<circle class="base" id="b2-base" cx="410" cy="230" r="20"/>
+	<circle class="hilight" id="b2-hilight" cx="410" cy="230" r="20"/>
+	<circle class="outline" id="b2-outline" cx="410" cy="230" r="20"/>
+</g>
+
+<!-- X Button -->
+<g id="b0">
+	<rect class="base" id="b0-base" x="510" y="155" width="30" height="55" rx="5" ry="5"/>
+	<rect class="hilight" id="b0-hilight" x="510" y="155" width="30" height="55" rx="5" ry="5"/>
+	<rect class="outline" id="b0-outline" x="510" y="155" width="30" height="55" rx="5" ry="5"/>
+</g>
+
+<!-- Y Button -->
+<g id="b3">
+	<rect class="base" id="b3-base" x="425" y="125" width="55" height="30" rx="5" ry="5"/>
+	<rect class="hilight" id="b3-hilight" x="425" y="125" width="55" height="30" rx="5" ry="5"/>
+	<rect class="outline" id="b3-outline" x="425" y="125" width="55" height="30" rx="5" ry="5"/>
+</g>
+
+</svg>

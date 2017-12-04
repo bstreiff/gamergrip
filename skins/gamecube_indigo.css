@@ -1,0 +1,14 @@
+body { background-color: #514689; }
+
+#r1 .base { fill: #4682b4; }
+#l2 .base, #r2 .base { fill: #b2b4b2; }
+
+#b0 .base, #b3 .base, #start .base, #dpad .base { fill: #b2b4b2; } 
+#b1 .base { fill: #49b6a3; }
+#b2 .base { fill: #e15d5d; }
+
+#ls-socket .base { fill: #595758; }
+#ls .base { fill: #b2b4b2; }
+
+#rs-socket .base { fill: #c6b955; }
+#rs .base { fill: #dbc851; }
