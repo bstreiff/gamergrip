@@ -1,8 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
 
+<defs>
+	<filter id="drop-shadow" y="-50%" x="-50%" height="200%" width="200%">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2.2"/>
+		<feOffset dx="3" dy="3" result="offsetblur"/>
+		<feFlood flood-color="rgba(0,0,0,0.5)"/>
+		<feComposite in2="offsetblur" operator="in"/>
+		<feMerge>
+			<feMergeNode/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+</defs>
+
 <!-- D-Pad -->
-<g id="dpad">
+<g id="dpad" filter="url(#drop-shadow)">
 	<path class="base" id="dpad-base" d="m69.2 35c-3.82 0-6.9 3.08-6.9 6.9v40.4h-40.4c-3.82 0-6.9 3.08-6.9 6.9v31.5c0 3.82 3.08 6.9 6.9 6.9h40.4v40.4c0 3.82 3.08 6.9 6.9 6.9h31.5c3.82 0 6.9-3.08 6.9-6.9v-40.4h40.4c3.82 0 6.9-3.08 6.9-6.9v-31.5c0-3.82-3.08-6.9-6.9-6.9h-40.4v-40.4c0-3.82-3.08-6.9-6.9-6.9z"/>
 	<path class="hilight" id="dr-hilight" d="m108 82.3-22.7 22.7 22.7 22.7h40.4c3.82 0 6.9-3.08 6.9-6.9v-31.5c0-3.82-3.08-6.9-6.9-6.9z"/>
 	<path class="hilight" id="dl-hilight" d="m21.9 82.3c-3.82 0-6.9 3.08-6.9 6.9v31.5c0 3.82 3.08 6.9 6.9 6.9h40.4l22.7-22.7-22.7-22.7z"/>
@@ -12,49 +25,49 @@
 </g>
 
 <!-- A Button -->
-<g id="b2">
+<g id="b2" filter="url(#drop-shadow)">
 	<circle class="base" id="b2-base" cx="382" cy="153" r="32.5"/>
 	<circle class="hilight" id="b2-hilight" cx="382" cy="153" r="32.5"/>
 	<circle class="outline" id="b2-outline" cx="382" cy="153" r="32.5"/>
 </g>
 
 <!-- B Button -->
-<g id="b0">
+<g id="b0" filter="url(#drop-shadow)">
 	<circle class="base" id="b0-base" cx="467" cy="132" r="32.5"/>
 	<circle class="hilight" id="b0-hilight" cx="467" cy="132" r="32.5"/>
 	<circle class="outline" id="b0-outline" cx="467" cy="132" r="32.5"/>
 </g>
 
 <!-- C Button -->
-<g id="b1">
+<g id="b1" filter="url(#drop-shadow)">
 	<circle class="base" id="b1-base" cx="552" cy="112" r="32.5"/>
 	<circle class="hilight" id="b1-hilight" cx="552" cy="112" r="32.5"/>
 	<circle class="outline" id="b1-outline" cx="552" cy="112" r="32.5"/>
 </g>
 
 <!-- X Button -->
-<g id="l1">
+<g id="l1" filter="url(#drop-shadow)">
 	<circle class="base" id="l1-base" cx="380" cy="75" r="25"/>
 	<circle class="hilight" id="l1-hilight" cx="380" cy="75" r="25"/>
 	<circle class="outline" id="l1-outline" cx="380" cy="75" r="25"/>
 </g>
 
 <!-- Y Button -->
-<g id="b3">
+<g id="b3" filter="url(#drop-shadow)">
 	<circle class="base" id="b3-base" cx="445" cy="60" r="25"/>
 	<circle class="hilight" id="b3-hilight" cx="445" cy="60" r="25"/>
 	<circle class="outline" id="b3-outline" cx="445" cy="60" r="25"/>
 </g>
 
 <!-- Z Button -->
-<g id="r1">
+<g id="r1" filter="url(#drop-shadow)">
 	<circle class="base" id="r1-base" cx="510" cy="45" r="25"/>
 	<circle class="hilight" id="r1-hilight" cx="510" cy="45" r="25"/>
 	<circle class="outline" id="r1-outline" cx="510" cy="45" r="25"/>
 </g>
 
 <!-- Start Button -->
-<g id="start">
+<g id="start" filter="url(#drop-shadow)">
 	<rect class="base" id="start-base" x="215" y="105" width="80" height="20" rx="10" ry="10"/>
 	<rect class="hilight" id="start-hilight" x="215" y="105" width="80" height="20" rx="10" ry="10"/>
 	<rect class="outline" id="start-outline" x="215" y="105" width="80" height="20" rx="10" ry="10"/>

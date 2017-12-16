@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg version="1.1" viewBox="0 0 600 200" xmlns="http://www.w3.org/2000/svg">
 
-<g id="dpad">
+<defs>
+	<filter id="drop-shadow" y="-50%" x="-50%" height="200%" width="200%">
+		<feGaussianBlur in="SourceAlpha" stdDeviation="2.2"/>
+		<feOffset dx="3" dy="3" result="offsetblur"/>
+		<feFlood flood-color="rgba(0,0,0,0.5)"/>
+		<feComposite in2="offsetblur" operator="in"/>
+		<feMerge>
+			<feMergeNode/>
+			<feMergeNode in="SourceGraphic"/>
+		</feMerge>
+	</filter>
+</defs>
+
+<g id="dpad" filter="url(#drop-shadow)">
 	<path class="base" id="dpad-base" d="m74.2 45c-3.82 0-6.9 3.08-6.9 6.9v40.4h-40.4c-3.82 0-6.9 3.08-6.9 6.9v31.5c0 3.82 3.08 6.9 6.9 6.9h40.4v40.4c0 3.82 3.08 6.9 6.9 6.9h31.5c3.82 0 6.9-3.08 6.9-6.9v-40.4h40.4c3.82 0 6.9-3.08 6.9-6.9v-31.5c0-3.82-3.08-6.9-6.9-6.9h-40.4v-40.4c0-3.82-3.08-6.9-6.9-6.9z"/>
 	<path class="hilight" id="dr-hilight" d="m113 92.3-22.7 22.7 22.7 22.7h40.4c3.82 0 6.9-3.08 6.9-6.9v-31.5c0-3.82-3.08-6.9-6.9-6.9z"/>
 	<path class="hilight" id="dl-hilight" d="m26.9 92.3c-3.82 0-6.9 3.08-6.9 6.9v31.5c0 3.82 3.08 6.9 6.9 6.9h40.4l22.7-22.7-22.7-22.7z"/>
@@ -10,49 +23,49 @@
 	<path class="outline" id="dpad-outline" d="m74.2 45c-3.82 0-6.9 3.08-6.9 6.9v40.4h-40.4c-3.82 0-6.9 3.08-6.9 6.9v31.5c0 3.82 3.08 6.9 6.9 6.9h40.4v40.4c0 3.82 3.08 6.9 6.9 6.9h31.5c3.82 0 6.9-3.08 6.9-6.9v-40.4h40.4c3.82 0 6.9-3.08 6.9-6.9v-31.5c0-3.82-3.08-6.9-6.9-6.9h-40.4v-40.4c0-3.82-3.08-6.9-6.9-6.9z"/>
 </g>
 
-<g id="b0">
+<g id="b0" filter="url(#drop-shadow)">
 	<circle class="base" id="b0-base" cx="487" cy="162" r="27.5"/>
 	<circle class="hilight" id="b0-hilight" cx="487" cy="162" r="27.5"/>
 	<circle class="outline" id="b0-outline" cx="487" cy="162" r="27.5"/>
 </g>
 
-<g id="b1">
+<g id="b1" filter="url(#drop-shadow)">
 	<circle class="base" id="b1-base" cx="552" cy="118" r="27.5"/>
 	<circle class="hilight" id="b1-hilight" cx="552" cy="118" r="27.5"/>
 	<circle class="outline" id="b1-outline" cx="552" cy="118" r="27.5"/>
 </g>
 
-<g id="b2">
+<g id="b2" filter="url(#drop-shadow)">
 	<circle class="base" id="b2-base" cx="418" cy="118" r="27.5"/>
 	<circle class="hilight" id="b2-hilight" cx="418" cy="118" r="27.5"/>
 	<circle class="outline" id="b2-outline" cx="418" cy="118" r="27.5"/>
 </g>
 
-<g id="b3">
+<g id="b3" filter="url(#drop-shadow)">
 	<circle class="base" id="b3-base" cx="487" cy="72.5" r="27.5"/>
 	<circle class="hilight" id="b3-hilight" cx="487" cy="72.5" r="27.5"/>
 	<circle class="outline" id="b3-outline" cx="487" cy="72.5" r="27.5"/>
 </g>
 
-<g id="select">
+<g id="select" filter="url(#drop-shadow)">
 	<rect class="base" id="select-base" transform="matrix(.757 -.654 .667 .745 0 0)" x="35.8" y="261" width="68.7" height="24.5" rx="10" ry="10" />
 	<rect class="hilight" id="select-hilight" transform="matrix(.757 -.654 .667 .745 0 0)" x="35.8" y="261" width="68.7" height="24.5" rx="10" ry="10" />
 	<rect class="outline" id="select-outline" transform="matrix(.757 -.654 .667 .745 0 0)" x="35.8" y="261" width="68.7" height="24.5" rx="10" ry="10" />
 </g>
 
-<g id="start">
+<g id="start" filter="url(#drop-shadow)">
 	<rect class="base" id="start-base" transform="matrix(.757 -.654 .667 .745 0 0)" x="99.1" y="316" width="68.7" height="24.5" rx="10" ry="10" />
 	<rect class="hilight" id="start-hilight" transform="matrix(.757 -.654 .667 .745 0 0)" x="99.1" y="316" width="68.7" height="24.5" rx="10" ry="10" />
 	<rect class="outline" id="start-outline" transform="matrix(.757 -.654 .667 .745 0 0)" x="99.1" y="316" width="68.7" height="24.5" rx="10" ry="10" />
 </g>
 
-<g id="l1">
+<g id="l1" filter="url(#drop-shadow)">
 	<rect class="base" id="l1-base" x="20" y="15" width="160" height="20" rx="5" ry="5"/>
 	<rect class="hilight" id="l1-hilight" x="20" y="15" width="160" height="20" rx="5" ry="5"/>
 	<rect class="outline" id="l1-outline" x="20" y="15" width="160" height="20" rx="5" ry="5"/>
 </g>
 
-<g id="r1">
+<g id="r1" filter="url(#drop-shadow)">
 	<rect class="base" id="r1-base" x="420" y="15" width="160" height="20" rx="5" ry="5"/>
 	<rect class="hilight" id="r1-hilight" x="420" y="15" width="160" height="20" rx="5" ry="5"/>
 	<rect class="outline" id="r1-outline" x="420" y="15" width="160" height="20" rx="5" ry="5"/>
